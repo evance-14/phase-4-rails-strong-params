@@ -14,6 +14,7 @@ class BirdsController < ApplicationController
   end
 
   private
+  # all methods below here are private
   def bird_params
     params.permit(:name, :species)
   end
